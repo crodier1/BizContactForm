@@ -1,0 +1,21 @@
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.exe.config
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.exe
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.pdb
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.csprojResolveAssemblyReference.cache
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.Properties.Resources.resources
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.csproj.GenerateResource.Cache
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.exe
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.pdb
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.BizContacts.resources
+c:\users\crodier\documents\visual studio 2017\Projects\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.Main.resources
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.exe.config
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.exe
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\bin\Debug\Main form and Business Form.pdb
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.BizContacts.resources
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.Main.resources
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main_form_and_Business_Form.Properties.Resources.resources
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.exe
+C:\Users\Admin\source\repos\Main form and Business Form\Main form and Business Form\obj\Debug\Main form and Business Form.pdb
