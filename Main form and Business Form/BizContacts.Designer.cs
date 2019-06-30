@@ -63,8 +63,18 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnGetImage = new System.Windows.Forms.Button();
+            this.dlgOpenImage = new System.Windows.Forms.OpenFileDialog();
+            this.btnExportOpen = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.btnSaveToText = new System.Windows.Forms.Button();
+            this.btnOpenWorld = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,7 +92,7 @@
             // txtTitle
             // 
             this.txtTitle.Location = new System.Drawing.Point(184, 12);
-            this.txtTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(401, 22);
             this.txtTitle.TabIndex = 1;
@@ -90,7 +100,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Location = new System.Drawing.Point(184, 44);
-            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(401, 22);
             this.txtFirstName.TabIndex = 3;
@@ -109,7 +119,7 @@
             // txtLName
             // 
             this.txtLName.Location = new System.Drawing.Point(184, 79);
-            this.txtLName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLName.Margin = new System.Windows.Forms.Padding(4);
             this.txtLName.Name = "txtLName";
             this.txtLName.Size = new System.Drawing.Size(401, 22);
             this.txtLName.TabIndex = 5;
@@ -128,7 +138,7 @@
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(184, 113);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(401, 22);
             this.txtAddress.TabIndex = 7;
@@ -147,7 +157,7 @@
             // txtCity
             // 
             this.txtCity.Location = new System.Drawing.Point(184, 148);
-            this.txtCity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(4);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(401, 22);
             this.txtCity.TabIndex = 9;
@@ -166,7 +176,7 @@
             // txtState
             // 
             this.txtState.Location = new System.Drawing.Point(184, 180);
-            this.txtState.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtState.Margin = new System.Windows.Forms.Padding(4);
             this.txtState.Name = "txtState";
             this.txtState.Size = new System.Drawing.Size(401, 22);
             this.txtState.TabIndex = 11;
@@ -185,7 +195,7 @@
             // txtZip
             // 
             this.txtZip.Location = new System.Drawing.Point(184, 212);
-            this.txtZip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtZip.Margin = new System.Windows.Forms.Padding(4);
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(401, 22);
             this.txtZip.TabIndex = 13;
@@ -204,7 +214,7 @@
             // txtCompany
             // 
             this.txtCompany.Location = new System.Drawing.Point(184, 246);
-            this.txtCompany.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCompany.Margin = new System.Windows.Forms.Padding(4);
             this.txtCompany.Name = "txtCompany";
             this.txtCompany.Size = new System.Drawing.Size(401, 22);
             this.txtCompany.TabIndex = 15;
@@ -223,7 +233,7 @@
             // txtWebSite
             // 
             this.txtWebSite.Location = new System.Drawing.Point(184, 278);
-            this.txtWebSite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWebSite.Margin = new System.Windows.Forms.Padding(4);
             this.txtWebSite.Name = "txtWebSite";
             this.txtWebSite.Size = new System.Drawing.Size(401, 22);
             this.txtWebSite.TabIndex = 17;
@@ -241,8 +251,8 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(184, 326);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Location = new System.Drawing.Point(184, 492);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(401, 22);
             this.txtSearch.TabIndex = 19;
@@ -251,7 +261,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(20, 326);
+            this.label9.Location = new System.Drawing.Point(20, 492);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(75, 25);
@@ -261,7 +271,7 @@
             // txtMobile
             // 
             this.txtMobile.Location = new System.Drawing.Point(832, 12);
-            this.txtMobile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMobile.Margin = new System.Windows.Forms.Padding(4);
             this.txtMobile.Name = "txtMobile";
             this.txtMobile.Size = new System.Drawing.Size(401, 22);
             this.txtMobile.TabIndex = 21;
@@ -291,7 +301,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(832, 72);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 23;
@@ -310,10 +320,10 @@
             // txtNotes
             // 
             this.txtNotes.Location = new System.Drawing.Point(832, 111);
-            this.txtNotes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNotes.Margin = new System.Windows.Forms.Padding(4);
             this.txtNotes.Multiline = true;
             this.txtNotes.Name = "txtNotes";
-            this.txtNotes.Size = new System.Drawing.Size(401, 178);
+            this.txtNotes.Size = new System.Drawing.Size(401, 94);
             this.txtNotes.TabIndex = 25;
             // 
             // cboSearch
@@ -323,36 +333,38 @@
             "First Name",
             "Last Name",
             "Company"});
-            this.cboSearch.Location = new System.Drawing.Point(656, 324);
-            this.cboSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboSearch.Location = new System.Drawing.Point(656, 490);
+            this.cboSearch.Margin = new System.Windows.Forms.Padding(4);
             this.cboSearch.Name = "cboSearch";
             this.cboSearch.Size = new System.Drawing.Size(172, 24);
             this.cboSearch.TabIndex = 26;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(861, 320);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSearch.Location = new System.Drawing.Point(861, 486);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(100, 28);
             this.btnSearch.TabIndex = 27;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(969, 321);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEdit.Location = new System.Drawing.Point(969, 487);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(100, 28);
             this.btnEdit.TabIndex = 28;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(1077, 322);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(1077, 488);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 29;
@@ -362,22 +374,23 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(1185, 324);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Location = new System.Drawing.Point(1185, 490);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 30;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 379);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 535);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1264, 251);
+            this.dataGridView1.Size = new System.Drawing.Size(1403, 251);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             // 
@@ -400,6 +413,65 @@
             this.label13.TabIndex = 32;
             this.label13.Text = "Email";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(832, 223);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(225, 225);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 34;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.DoubleClick += new System.EventHandler(this.pictureBox1_DoubleClick);
+            // 
+            // btnGetImage
+            // 
+            this.btnGetImage.Location = new System.Drawing.Point(656, 223);
+            this.btnGetImage.Name = "btnGetImage";
+            this.btnGetImage.Size = new System.Drawing.Size(95, 27);
+            this.btnGetImage.TabIndex = 35;
+            this.btnGetImage.Text = "Get Image";
+            this.btnGetImage.UseVisualStyleBackColor = true;
+            this.btnGetImage.Click += new System.EventHandler(this.btnGetImage_Click);
+            // 
+            // dlgOpenImage
+            // 
+            this.dlgOpenImage.Filter = "Image FIle | *.jpg; *.jpeg; *.png; *.jfif; *.gif; *.tiff; *.bmp";
+            // 
+            // btnExportOpen
+            // 
+            this.btnExportOpen.Location = new System.Drawing.Point(1240, 115);
+            this.btnExportOpen.Name = "btnExportOpen";
+            this.btnExportOpen.Size = new System.Drawing.Size(184, 37);
+            this.btnExportOpen.TabIndex = 36;
+            this.btnExportOpen.Text = "Export/Open Excel";
+            this.btnExportOpen.UseVisualStyleBackColor = true;
+            this.btnExportOpen.Click += new System.EventHandler(this.btnExportOpen_Click);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.Filter = "Excel Files (*xlsx)|*xlsx|Text Files (*.txt)|*.txt|Word Files (*.docx)|*.docx";
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
+            // btnSaveToText
+            // 
+            this.btnSaveToText.Location = new System.Drawing.Point(1240, 158);
+            this.btnSaveToText.Name = "btnSaveToText";
+            this.btnSaveToText.Size = new System.Drawing.Size(185, 26);
+            this.btnSaveToText.TabIndex = 37;
+            this.btnSaveToText.Text = "Save to Text";
+            this.btnSaveToText.UseVisualStyleBackColor = true;
+            this.btnSaveToText.Click += new System.EventHandler(this.btnSaveToText_Click);
+            // 
+            // btnOpenWorld
+            // 
+            this.btnOpenWorld.Location = new System.Drawing.Point(1240, 190);
+            this.btnOpenWorld.Name = "btnOpenWorld";
+            this.btnOpenWorld.Size = new System.Drawing.Size(184, 30);
+            this.btnOpenWorld.TabIndex = 38;
+            this.btnOpenWorld.Text = "Open in World";
+            this.btnOpenWorld.UseVisualStyleBackColor = true;
+            this.btnOpenWorld.Click += new System.EventHandler(this.btnOpenWorld_Click);
+            // 
             // bindingSource1
             // 
             this.bindingSource1.DataSource = typeof(Main_form_and_Business_Form.BizContacts);
@@ -408,7 +480,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1305, 645);
+            this.ClientSize = new System.Drawing.Size(1437, 799);
+            this.Controls.Add(this.btnOpenWorld);
+            this.Controls.Add(this.btnSaveToText);
+            this.Controls.Add(this.btnExportOpen);
+            this.Controls.Add(this.btnGetImage);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.dataGridView1);
@@ -443,11 +520,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.lblTitle);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BizContacts";
             this.Text = "BizContacts";
             this.Load += new System.EventHandler(this.BizContacts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -491,5 +570,13 @@
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnGetImage;
+        private System.Windows.Forms.OpenFileDialog dlgOpenImage;
+        private System.Windows.Forms.Button btnExportOpen;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.BindingSource bindingSource2;
+        private System.Windows.Forms.Button btnSaveToText;
+        private System.Windows.Forms.Button btnOpenWorld;
     }
 }
